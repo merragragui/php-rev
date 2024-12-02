@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <form action="rev2.php" method="post"> 
+        <label>Nom :</label>
+        <input type="text" name="nom" placeholder="saisir votre nom"><br><br>
+        <label>Age :</label>
+        <input type="number" name="age" placeholder="saisir votre age"><br><br>
+        <button name="envoyer">Envoyer</button><br><br>
+        <label>Choose your favorite color :</label>
+        <select name="color[]" multiple>
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+        </select>
+        <button name="env">Envoyer</button><br><br>
+    </form>
+    <form action="rev2.php" method="get">
+        <label>Nombre1 :</label>
+        <input type="number" name="nbr1"  placeholder="saisir le premier nombre"><br><br>
+        <label>Nombre2 :</label>
+        <input type="number" name="nbr2"  placeholder="saisir le deuxieme nombre"><br><br>
+        <button name="en">Envoyer</button>
+    </form><br><br>
+    <form action="rev2.php" method="post">
+        <label>Choisir :</label>
+      <select name="choix">
+        <option value="ad">Administrateur</option>
+         <option value="uti">Utilisateur</option>
+      </select>
+      <button name="e">Envoyer</button>
+    </form>
+</fieldset>
+</body>
+</html>
